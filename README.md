@@ -61,6 +61,8 @@ whoami
 
 ![Screenshot 6](6-whoami.png)
 
+---
+
 ### 6. Documented Findings, Actions and Outcomes
 Documented the issue, troubleshooting steps, resolutions and verification results in the support ticket for future reference and auditing. Ticket closed.
 
