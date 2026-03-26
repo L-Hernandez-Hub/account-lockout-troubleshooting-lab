@@ -43,7 +43,7 @@ Opened and navigated through the Windows Server → Tools → Event Viewer → W
 ---
 
 ### 4. Established a Plan of Action and Implemented the Solution
-Opened and navigated through Active Directory Users and Computers → Domain → Users → Employees → Sales (OU) → Gaby → Account Properties and checked "Unlock account". Reseted the password, enforcing a password change at next logon to restore secure access.
+Established a plan to unlock account in Active Directory Users and Computers. Opened and navigated through Active Directory Users and Computers → Domain → Users → Employees → Sales (OU) → Gaby → Account Properties and checked "Unlock account". Reseted the password, enforcing a password change at next logon to restore secure access.
 
 ![Screenshot 4](4-unlock-account.png)
 
