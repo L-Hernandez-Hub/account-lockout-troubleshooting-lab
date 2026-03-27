@@ -7,7 +7,7 @@ Simulate and troubleshoot a real-world IT support ticket where a user account ha
 
 ## Lab Environment
 - Windows Server 2019 Virtual Machine
-- Windows 11 Pro Virtual Machine  
+- Windows 11 Pro Virtual Machine (domian-joined client)
 - Active Directory Domain Services (AD DS)  
 - Active Directory Users and Computers (ADUC)
 - Event Viewer
