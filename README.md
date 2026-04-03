@@ -7,7 +7,7 @@ Simulate and troubleshoot a real-world IT support ticket where a user account ha
 
 ## Lab Environment
 - Windows Server 2019 Virtual Machine
-- Windows 11 Pro Virtual Machine  
+- Windows 11 Pro Virtual Machine (domian-joined client)
 - Active Directory Domain Services (AD DS)  
 - Active Directory Users and Computers (ADUC)
 - Event Viewer
@@ -43,7 +43,7 @@ Opened and navigated through the Windows Server → Tools → Event Viewer → W
 ---
 
 ### 4. Established a Plan of Action and Implemented the Solution
-Opened and navigated through Active Directory Users and Computers → Domain → Users → Employees → Sales (OU) → Gaby → Account Properties and checked "Unlock account". Reseted the password, enforcing a password change at next logon to restore secure access.
+Established a plan to unlock the user's account in Active Directory Users and Computers. The plan includes resesting the password, and enforcing password change at next logon. Opened and navigated through Active Directory Users and Computers → Domain → Users → Employees → Sales (OU) → Gaby → Account Properties and checked "Unlock account". Reseted the password, enforcing a password change at next logon to restore secure access.
 
 ![Screenshot 4](Screenshots/4-unlock-account.png)
 
