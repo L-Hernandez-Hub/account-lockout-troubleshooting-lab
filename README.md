@@ -17,7 +17,7 @@ Simulate and troubleshoot a real-world IT support ticket where a user account ha
 ## Ticket
 User reports they cannot log in to their domain account after multiple attempts. Error indicates account is locked. Support ticket has been received.
 
-![Screenshot 1](1-support-ticket.jpeg)
+![Screenshot 1](Screenshots/1-support-ticket.jpeg)
 
 ---
 
@@ -26,7 +26,7 @@ User reports they cannot log in to their domain account after multiple attempts.
 ### 1. Identified the Problem
 User sent screenshot of their screen notifying her account being locked out after multiple sign-on attempts. 
 
-![Screenshot 2](2-account-lockout.png)
+![Screenshot 2](Screenshots/2-account-lockout.png)
 
 ---
 
@@ -38,16 +38,16 @@ Formed an hypothesis that the Active Directory Domain Controller locked account 
 ### 3. Tested the Theory
 Opened and navigated through the Windows Server → Tools → Event Viewer → Windows Logs → Security and filtered the current log with Event ID code `4740` for locked out account. The users Account Name and Task Category confirmed it was an Active Directory Domain Controller lockout.
 
-![Screenshot 3](3-event-viewer.png)
+![Screenshot 3](Screenshots/3-event-viewer.png)
 
 ---
 
 ### 4. Established a Plan of Action and Implemented the Solution
 Opened and navigated through Active Directory Users and Computers → Domain → Users → Employees → Sales (OU) → Gaby → Account Properties and checked "Unlock account". Reseted the password, enforcing a password change at next logon to restore secure access.
 
-![Screenshot 4](4-unlock-account.png)
+![Screenshot 4](Screenshots/4-unlock-account.png)
 
-![Screenshot 5](5-reset-password.png)
+![Screenshot 5](Screenshots/5-reset-password.png)
 
 ---
 
@@ -59,14 +59,14 @@ Verified by successfully logging into the Windows 11 machine using the domain ac
 whoami
 ```
 
-![Screenshot 6](6-whoami.png)
+![Screenshot 6](Screenshots/6-whoami.png)
 
 ---
 
 ### 6. Documented Findings, Actions and Outcomes
 Documented the issue, troubleshooting steps, resolutions and verification results in the support ticket for future reference and auditing. Ticket closed.
 
-![Screenshot 7](7-closed-ticket.jpeg)
+![Screenshot 7](Screenshots/7-closed-ticket.jpeg)
 
 ---
 
